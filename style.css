@@ -5,11 +5,7 @@ nav ul {
   margin: auto;
 }
 
-#figcaption {
-  display: flex;
-}
-
-#Filtres {
+#Filtres ul {
   display: flex;
   list-style-type: none;
 }
@@ -17,4 +13,21 @@ nav ul {
 i {
   color: rgb(0, 101, 252);
   list-style-type: none;
+}
+
+#Egris {
+  color: rgb(217, 217, 217);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#C1 {
+  display: flex;
+}
+
+#C2 {
+  display: flex;
 }
