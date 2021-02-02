@@ -3,6 +3,7 @@ nav ul {
   list-style-type: none;
   justify-content: flex-end;
   margin: auto;
+  text-decoration: none;
 }
 
 #Filtres ul {
@@ -30,4 +31,8 @@ footer {
 
 #C2 {
   display: flex;
+}
+
+#Titre {
+  margin-bottom: -15px;
 }
