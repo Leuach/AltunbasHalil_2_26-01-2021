@@ -33,6 +33,56 @@ footer {
   display: flex;
 }
 
-#Titre {
+.Titre {
   margin-bottom: -15px;
+  font-size: 21px;
+}
+
+.Nav {
+  margin-right: 50px;
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+.Nav:hover {
+  color: rgb(32, 120, 253);
+  border-top: 2px solid rgb(32, 120, 253);
+  padding: 50px;
+}
+
+.S {
+  color: rgb(32, 120, 253);
+  font-weight: bold;
+}
+
+#Si {
+  color: black;
+  margin-left: 15px;
+  border: solid 1px rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
+  padding: 12px;
+  padding-left: 16px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#Bouton_Rechercher {
+  color: white;
+  border: solid 1px rgb(0, 101, 252);
+  background-color: rgb(0, 101, 252);
+  padding: 12px;
+  padding-right: 20px;
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 20px;
+}
+
+.MF {
+  font-weight: bold;
+  border: solid 1px rgb(242, 242, 242);
+  padding: 12px;
+  padding-right: 52px;
+  padding-left: 20px;
+}
+
+.Info {
+  color: black;
 }
