@@ -1,5 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
+  max-width: 1370px;
+  margin: auto;
 }
 nav ul {
   display: flex;
@@ -50,7 +52,7 @@ footer {
 
 .Nav:hover {
   color: rgb(32, 120, 253);
-  border-top: 2px solid rgb(32, 120, 253);
+  border-top: 3px solid rgb(32, 120, 253);
 }
 
 .S {
@@ -60,7 +62,6 @@ footer {
 
 #Si {
   color: black;
-  margin-left: 15px;
   border: solid 1px rgb(242, 242, 242);
   background-color: rgb(242, 242, 242);
   padding: 12px;
@@ -145,3 +146,98 @@ footer {
   border-radius: 50%;
   margin-left: 30px;
 }
+
+.div_fig_aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure_column {
+  columns: auto;
+}
+
+.sec_div_activite {
+  display: flex;
+}
+
+#Icone_Info {
+  border: solid rgb(242, 242, 242) 2px;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: small;
+  width: 15px;
+}
+
+.fa-info::before {
+  margin-left: 5px;
+}
+
+.Section_Hebergement img {
+  max-width: 200px;
+  max-height: 150px;
+  background-size: cover;
+}
+
+#Fig_img_LePanier {
+  width: 200px;
+  height: 150px;
+}
+
+.Section_Hebergement figcaption {
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+aside img {
+  height: 150px;
+  width: 130px;
+}
+
+aside figcaption {
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 0 15px 15px 0;
+}
+
+.aside_h2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.fa-chart-line {
+  color: black;
+  margin-right: 40px;
+}
+
+.aside_fig {
+  display: flex;
+}
+
+.sec_div_activite figcaption {
+  border: solid 1px white;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 1px 2px 12px rgb(242, 242, 242);
+  padding: 15px;
+}
+
+.img_Port_Calanques {
+  width: 300px;
+  height: 450px;
+}
+.figure_img_Fort_Parc {
+  width: 300px;
+  height: 160px;
+}
+
+.img_Frioul_Notre-Dame {
+  width: 300px;
+  height: 140px;
+}
+
+
+
+
+
+meta view port 
