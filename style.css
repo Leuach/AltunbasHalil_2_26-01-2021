@@ -96,11 +96,17 @@ footer {
 }
 
 #HaM {
-  margin-left: 35px;
-  margin-bottom: -3px;
+  font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
-.Afficher {
+.p_Afficher {
+  margin-bottom: 30px;
+}
+
+.Bouton_Afficher {
   text-decoration: none;
   margin-left: 30px;
   font-weight: bold;
@@ -125,6 +131,10 @@ footer {
   list-style: none;
   flex-wrap: wrap;
   padding: 0 0 0 5px;
+}
+
+.ul_filtres h2 {
+  font-size: 18px;
 }
 
 .Test {
@@ -176,11 +186,6 @@ footer {
   max-width: 200px;
   max-height: 150px;
   background-size: cover;
-}
-
-#Fig_img_LePanier {
-  width: 200px;
-  height: 150px;
 }
 
 .Section_Hebergement figcaption {
@@ -236,8 +241,34 @@ aside figcaption {
   height: 140px;
 }
 
+.figures_column {
+  border: solid white 3px;
+  background-color: white;
+  border-radius: 15px;
+  height: 158px;
+  width: 202px;
+  margin: 16px 16px 16px 10px
+}
 
+.Cannebière_Mer {
+  margin: 16px 16px 16px 30px;
+}
+.figures_img{
+  border: solid 1px white;
+  border-radius: 15px 15px 0 0;
+  height: 93px;
+  object-fit: cover;
+  width: 200px;
+}
 
+.figures_bold {
+  font-weight: bold;
+  font-size: 14.5px;
+}
+
+.figures_small{
+  font-size: 13px;
+}
 
 
 meta view port 
