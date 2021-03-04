@@ -9,6 +9,7 @@ nav ul {
   justify-content: flex-end;
   margin: auto;
   text-decoration: none;
+  margin-top: -32px;
 }
 
 #Filtres ul {
@@ -41,6 +42,7 @@ footer {
 .Titre {
   margin-bottom: -15px;
   font-size: 21px;
+  margin-top: 45px;
 }
 
 .Nav {
@@ -51,12 +53,17 @@ footer {
   border-top: solid transparent 3px;
 }
 
-.Nav:hover {
-  color: rgb(32, 120, 253);
-  border-top: 3px solid rgb(32, 120, 253);
+nav span {
+  transition: ease-in-out 0.3s;
 }
 
-.S {
+nav span:hover {
+  color: rgb(32, 120, 253);
+  border-top: 3px solid rgb(32, 120, 253);
+  padding: 48px 20px 0 20px;
+}
+
+.nav_S {
   color: rgb(32, 120, 253);
   font-weight: bold;
 }
@@ -87,18 +94,11 @@ footer {
   padding-left: 20px;
 }
 
-.HM {
-  border: solid rgb(242, 242, 242);
-  display: table;
-  border-radius: 20px;
-  background-color: rgb(242, 242, 242);
-}
-
 #HaM {
   font-size: 18px;
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 2px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
 
 .p_Afficher {
@@ -187,6 +187,12 @@ footer {
   background-size: cover;
 }
 
+.Section_Hebergement {
+  border: solid rgb(242, 242, 242) 3px;
+  border-radius: 20px;
+  background-color: rgb(242, 242, 242);
+}
+
 .Section_Hebergement figcaption {
   border: solid 1px white;
   background-color: white;
@@ -207,11 +213,11 @@ aside figcaption {
   padding-top: 10px;
 }
 
-.aside_h2{
+.aside_h2 {
   font-size: 20px;
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 2px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
 
 .aside_h2_i {
@@ -227,11 +233,10 @@ aside figcaption {
 
 .aside_fig {
   display: flex;
-    border: solid white 3px;
-    background-color: white;
-    border-radius: 15px;
-    width: 350px;
-}
+  border: solid white 3px;
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
 }
 
 .sec_div_activite figcaption {
@@ -262,13 +267,13 @@ aside figcaption {
   border-radius: 15px;
   height: 158px;
   width: 202px;
-  margin: 16px 16px 16px 10px
+  margin: 16px 16px 16px 10px;
 }
 
 .Cannebière_Mer {
   margin: 16px 16px 16px 30px;
 }
-.figures_img{
+.figures_img {
   border: solid 1px white;
   border-radius: 15px 15px 0 0;
   height: 93px;
@@ -281,7 +286,7 @@ aside figcaption {
   font-size: 14.5px;
 }
 
-.figures_small{
+.figures_small {
   font-size: 13px;
 }
 
@@ -293,7 +298,7 @@ aside figcaption {
   border-radius: 15px 0 0 15px;
 }
 
-.aside_i_1{
+.aside_i_1 {
   padding-top: 35px;
 }
 
@@ -308,9 +313,9 @@ aside figcaption {
 
 .Activite_Marseille figure {
   border: solid white 0px;
-    border-radius: 15px 15px 15px 15px;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 15px 15px 15px 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Vieux_Port {
@@ -318,10 +323,10 @@ aside figcaption {
 }
 
 .Activite_Marseille figcaption {
-margin-top: 10px;
-margin-left: 10px;
-font-weight: bold;
-padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 #h2_Activite {
@@ -331,7 +336,6 @@ padding-bottom: 10px;
 
 .Footer {
   display: flex;
-  
 }
 
 figure {
@@ -343,11 +347,70 @@ figure {
   margin-top: -24px;
 }
 
-meta view port 
+.img_LogoReservia {
+  width: 100px;
+  margin-top: 32px;
+}
 
-reso  mobile max 480px / min 320px
+@media screen and (max-width: 1024px) {
+  .Titre {
+    margin-top: 100px;
+  }
 
-tablette 1024px / 1080px 
+  .nav_A {
+    right: -160px;
+    position: absolute;
+  }
 
-box-shadow: #00000014 0 0 19px 7px;
+  .nav_H {
+    right: 225px;
+    position: absolute;
+  }
 
+  .nav_A:hover {
+    border-bottom: rgb(32, 120, 253);
+  }
+  .nav_H,
+  .nav_A {
+    font-size: 30px;
+    top: 20px;
+    border-bottom: solid 3px rgb(242, 242, 242);
+    padding-bottom: 10px;
+    padding: 0 230px 10px 210px;
+    margin: 0 -295px 85px 1px;
+  }
+
+  .nav_S {
+    position: absolute;
+    top: -52px;
+    font-size: 30px;
+    left: 875px;
+  }
+
+  .img_LogoReservia {
+    width: 178px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 150px;
+    width: 532px;
+  }
+  #C1 #C2 {
+    display: block;
+  }
+
+  .aside_populaire {
+    width: 100%;
+  }
+
+  .div_fig_aside {
+    flex-direction: column-reverse;
+  }
+
+  .Section_Hebergement {
+    width: 100%;
+    border: none;
+    background-color: white;
+  }
+}
