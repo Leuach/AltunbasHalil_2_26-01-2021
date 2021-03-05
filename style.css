@@ -60,7 +60,7 @@ nav span {
 nav span:hover {
   color: rgb(32, 120, 253);
   border-top: 3px solid rgb(32, 120, 253);
-  padding: 48px 20px 0 20px;
+  padding-top: 48px;
 }
 
 .nav_S {
@@ -72,7 +72,7 @@ nav span:hover {
   color: black;
   border: solid 1px rgb(242, 242, 242);
   background-color: rgb(242, 242, 242);
-  padding: 12px;
+  padding: 13px;
   padding-left: 16px;
   border-radius: 15px 0px 0px 15px;
 }
@@ -84,6 +84,7 @@ nav span:hover {
   padding: 12px;
   border-radius: 0px 15px 15px 0px;
   text-decoration: none;
+  padding-right: 1px;
 }
 
 .MF {
@@ -352,9 +353,33 @@ figure {
   margin-top: 32px;
 }
 
+.fa-search:before {
+  visibility: hidden;
+}
+
 @media screen and (max-width: 1024px) {
+  .fa-search {
+    color: white;
+    visibility: visible;
+  }
+
+  .Titre_span {
+    margin-left: 40px;
+  }
+
+  .sec_div_activite {
+    flex-direction: column;
+  }
+
+  body {
+    position: absolute;
+    font-size: 45px;
+  }
+
   .Titre {
     margin-top: 100px;
+    font-size: 64px;
+    margin-left: 40px;
   }
 
   .nav_A {
@@ -367,8 +392,12 @@ figure {
     position: absolute;
   }
 
-  .nav_A:hover {
+  .nav_A:hover,
+  .nav_H:hover,
+  .nav_S:hover {
     border-bottom: rgb(32, 120, 253);
+    border-top: none;
+    padding-top: 0;
   }
   .nav_H,
   .nav_A {
@@ -382,9 +411,9 @@ figure {
 
   .nav_S {
     position: absolute;
-    top: -52px;
+    top: -60px;
     font-size: 30px;
-    left: 875px;
+    left: 850px;
   }
 
   .img_LogoReservia {
